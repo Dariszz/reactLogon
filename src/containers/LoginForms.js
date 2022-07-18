@@ -109,7 +109,7 @@ const LoginForms = () => {
   }
 
   return (
-    <LoginForm data-testid="test-LoginForms-component">
+    <LoginForm>
       <BoxLogo>
         <img src={whiteLogo} alt="whiteLogo" />
       </BoxLogo>
@@ -131,7 +131,6 @@ const LoginForms = () => {
             borderColor={errorUser ? '#E9B425' : '#fff'}
             src={IconLogin}
             alt="login"
-            dataCy="input-email"
             {...email}
           />
           <Input
@@ -144,7 +143,6 @@ const LoginForms = () => {
             src={IconSenha}
             marginTop="-1%"
             alt="password"
-            dataCy="input-password"
             {...password}
           />
           {errorMessage && (

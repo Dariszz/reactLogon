@@ -42,7 +42,7 @@ const Weather = () => {
     <Climate>
       {weather && (
         <>
-          <Location> {weather['name']} - RS</Location>
+          <Location> {weather['name']} - MG</Location>
           <TemperatureContainer>
             <ClimateIcon
               src={`http://openweathermap.org/img/w/${weather['weather'][0]['icon']}.png`}

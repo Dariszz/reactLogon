@@ -26,7 +26,7 @@ const BoxLogo = styled.div`
 
 const LoginImages = () => {
   return (
-    <LoginImage data-testid="test-LoginImages-component">
+    <LoginImage>
       <BoxLogo>
         <img src={whiteLogo} alt="whiteLogo" />
       </BoxLogo>
