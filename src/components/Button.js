@@ -19,7 +19,7 @@ const Btn = styled.button`
 `;
 
 const Button = ({ btnText }) => {
-  return <Btn>{<Text text={btnText} size="18px" weight="700" />}</Btn>;
+  return <Btn>{<Text text="Continuar" size="18px" weight="700" />}</Btn>;
 };
 
 export default Button;

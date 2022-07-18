@@ -10,10 +10,11 @@ const BoxFooter = styled.footer`
   width: 100%;
   height: ${(props) => props.height};
   background: linear-gradient(90.16deg, #33383d 0%, #1c1d20 100%);
+  color: white;
 `;
 
 const Line = styled.div`
-  color: #fff;
+  color: white;
   font-size: 60px;
   width: 5%;
   margin-top: 1%;
